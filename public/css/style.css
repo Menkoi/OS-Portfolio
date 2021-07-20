@@ -1,0 +1,20 @@
+body {
+  background-color: #ADC8FD;
+}
+
+.img-thumbnail {
+    
+    width: 5%;
+    height: 10%;
+}
+
+.container {
+    width: 100%;
+    
+}
+.footer {
+  height: 5%;
+  background-color: #545454;
+
+  
+}
