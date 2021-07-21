@@ -1,0 +1,66 @@
+body {
+  background-color: #ADC8FD;
+  grid-template-rows: flex;
+}
+
+/* FOLDER ICONS*/
+.folders{
+  display: grid;
+  padding: 10px;
+
+}
+
+.folder-img {
+  width: 5%;
+  padding:20px;
+}
+
+@media only screen and (max-width: 980px) {
+  .folder-img {
+    width:10%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .folder-img {
+    width:15%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .folder-img {
+    width:20%;
+  }
+}
+
+/* WIDGETS */
+.widget-thumbnail {
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+  height: 10%;
+  float: right;
+  padding: 15px;
+}
+
+
+
+
+
+/* FOOTER */
+.footer {
+  height: 5%;
+  background-color: #545454;
+  position: fixed;
+  bottom: 0;
+  width: 100%; 
+  
+}
+
+.footer-text {
+  float:right;
+  padding-right: 20px;
+  padding-bottom: 5%;
+  color: white;
+  font-size: 20px;
+}
