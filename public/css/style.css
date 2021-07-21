@@ -3,36 +3,58 @@ body {
   grid-template-rows: flex;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: column;
+/* FOLDER ICONS*/
+.folders{
+  display: grid;
+  padding: 10px;
+
 }
 
-.folder-thumbnail {
-    padding: 10px;
-    width: 4%;
-    height: 8%;
+.folder-img {
+  width: 5%;
+  padding:20px;
 }
 
+@media only screen and (max-width: 980px) {
+  .folder-img {
+    width:10%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .folder-img {
+    width:15%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .folder-img {
+    width:20%;
+  }
+}
+
+/* WIDGETS */
 .widget-thumbnail {
   display: flex;
   flex-direction: row;
-  width: 15%;
+  width: 10%;
   height: 10%;
   float: right;
   padding: 15px;
 }
 
-.container {
-    width: 100%; 
-}
 
+
+
+
+/* FOOTER */
 .footer {
   height: 5%;
   background-color: #545454;
   position: fixed;
   bottom: 0;
   width: 100%; 
+  
 }
 
 .footer-text {
