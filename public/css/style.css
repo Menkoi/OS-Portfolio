@@ -7,7 +7,6 @@ body {
 .folders{
   display: grid;
   padding: 10px;
-
 }
 
 .folder-img {
@@ -34,18 +33,32 @@ body {
 }
 
 /* WIDGETS */
-.widget-thumbnail {
+.container-widgets {
   display: flex;
-  flex-direction: row;
-  width: 10%;
-  height: 10%;
-  float: right;
-  padding: 15px;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 5%;
+  left:80%;
+  padding: 10px;
+}
+.widget-thumbnail {
+ width: 50%;
+ padding:10px;
+ float:right;
+
 }
 
+@media only screen and (max-width: 980px) {
+  .widget-thumbnail {
+    width:80%;
+  }
+}
 
-
-
+@media only screen and (max-width: 768px) {
+  .widget-thumbnail {
+    width:100%;
+  }
+}
 
 /* FOOTER */
 .footer {

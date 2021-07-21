@@ -28,10 +28,11 @@ function Home () {
               </a>
             </div>
           </div>
+          
 
           
 
-        <div>
+        <div class="container-widgets">
           <div class="widgets-1">
             <a href="https://github.com/Menkoi">
             <img src="https://i.imgur.com/vd9FfAM.png" alt="" class="widget-thumbnail"></img>
@@ -43,11 +44,7 @@ function Home () {
             <img src="https://i.imgur.com/NFZhEsp.png" alt="" class="widget-thumbnail"></img>
             </a>
           </div>
-
-          <div class="container-widgets">
-            <img src="" alt="" class="widget-thumbnail"></img>
-          </div>
-          </div>
+        </div>
         </section>
         
     )
