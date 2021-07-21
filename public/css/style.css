@@ -1,20 +1,44 @@
 body {
   background-color: #ADC8FD;
+  grid-template-rows: flex;
 }
 
-.img-thumbnail {
-    
-    width: 5%;
-    height: 10%;
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.folder-thumbnail {
+    padding: 10px;
+    width: 4%;
+    height: 8%;
+}
+
+.widget-thumbnail {
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+  height: 10%;
+  float: right;
+  padding: 15px;
 }
 
 .container {
-    width: 100%;
-    
+    width: 100%; 
 }
+
 .footer {
   height: 5%;
   background-color: #545454;
+  position: fixed;
+  bottom: 0;
+  width: 100%; 
+}
 
-  
+.footer-text {
+  float:right;
+  padding-right: 20px;
+  padding-bottom: 5%;
+  color: white;
+  font-size: 20px;
 }

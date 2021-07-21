@@ -4,7 +4,9 @@ function Footer () {
     return(
         <section>
             <div class="footer">
-               <footer class="footer">Logo Here</footer>
+               <footer>
+                   <p class="footer-text">BRANDON BURTON</p>
+               </footer>
             </div>
         </section>
     )
