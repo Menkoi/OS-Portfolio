@@ -62,7 +62,7 @@ body {
 
 /* FOOTER */
 .footer {
-  height: 5%;
+  height: 7%;
   background-color: #545454;
   position: fixed;
   bottom: 0;
@@ -71,9 +71,35 @@ body {
 }
 
 .footer-text {
-  float:right;
+  text-align: right;
+  font-weight: bold;
   padding-right: 20px;
-  padding-bottom: 5%;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
+}
+
+/* MODAL */
+.modalBar {
+  background-color: #545454;
+  height:5%;
+  cursor: move;
+}
+.modal-header {
+  width:100%;
+  text-align: center;;
+}
+.modal-title h1,
+p {
+  text-align: center;
+  padding: 10px;
+}
+
+.modal-body {
+  background: white;
+  border: 1px solid;
+  
+}
+
+.draggable {
+  width:30%;
 }
