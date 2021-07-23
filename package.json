@@ -41,6 +41,8 @@
     ]
   },
   "devDependencies": {
-    "bootstrap": "^5.0.2"
+    "bootstrap": "^5.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-draggable": "^4.4.3"
   }
 }
