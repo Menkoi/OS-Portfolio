@@ -1,6 +1,11 @@
+*{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #ADC8FD;
   grid-template-rows: flex;
+  scroll-behavior: smooth;
 }
 
 /* FOLDER ICONS*/
@@ -79,16 +84,18 @@ body {
 }
 
 /* MODAL */
-.modalBar {
-  background-color: #545454;
-  height:5%;
-  cursor: move;
-}
 .modal-header {
   width:100%;
-  text-align: center;;
+  text-align: right;
+  background-color: #545454;
+  border: 1px solid;
+  height:5%;
 }
-.modal-title h1,
+.modal-img {
+  height:5%;
+  width:100%;
+}
+.modal-body h1,
 p {
   text-align: center;
   padding: 10px;
@@ -97,9 +104,19 @@ p {
 .modal-body {
   background: white;
   border: 1px solid;
-  
+  width:100%;
 }
+
 
 .draggable {
   width:30%;
+}
+
+/* REACT MODAL*/
+.modal-90w {
+  height:0%
+}
+
+.modal-dialog {
+  height:0;
 }
