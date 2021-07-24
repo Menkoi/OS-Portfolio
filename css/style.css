@@ -1,7 +1,3 @@
-*{
-  scroll-behavior: smooth;
-}
-
 body {
   background-color: #ADC8FD;
   grid-template-rows: flex;
@@ -96,7 +92,7 @@ body {
   width:100%;
 }
 .modal-body h1,
-p {
+h2, h3, p {
   text-align: center;
   padding: 10px;
 }
@@ -105,6 +101,8 @@ p {
   background: white;
   border: 1px solid;
   width:100%;
+  overflow-y: scroll;
+  max-height:20rem;
 }
 
 
@@ -119,4 +117,20 @@ p {
 
 .modal-dialog {
   height:0;
+}
+
+/* RESUME MODAL */
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.dev-icons {
+  font-size: 3rem;
+  padding-left: 10%;
 }
