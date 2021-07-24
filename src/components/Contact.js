@@ -18,7 +18,7 @@ function Contact() {
               <img src="https://i.imgur.com/CZrtfWX.png" class="folder-img"alt=""></img>
             </a>
             <Modal show={contactModal} onHide={hideContact} >
-          <Draggable defaultPosition={{ x: 600, y: -500 }}
+          <Draggable defaultPosition={{ x: 600, y: -300 }}
               defaultClassName="draggable" bounds="body">
             <ModalDialog>
               <ModalHeader closeButton id="modal-bar">

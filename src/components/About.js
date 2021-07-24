@@ -28,15 +28,12 @@ function About() {
                 <img src="https://i.imgur.com/cwLTOc4.png" alt="" class="modal-img"></img>
                 <h1>About Me</h1>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                  Welcome! My name is Brandon Burton, I am a front end developer with a background of leadership
+                  skills from the US Army and life-long dedication to learning. Effective at 
+                  combining creativity and problem solving to develop
+                  user-friendly applications. Known for going the extra mile to meet deadlines to achieve that goal.
                   </p>
+                  <img src="https://i.imgur.com/uQPDXCv.png" alt="" class="about-img"></img>
               </ModalBody>
             </ModalDialog>
           </Draggable>
