@@ -1,5 +1,5 @@
 body {
-  background-color: #ADC8FD;
+  background-image: url("https://i.imgur.com/VOj0GtW.jpg");
   grid-template-rows: flex;
   scroll-behavior: smooth;
 }
@@ -61,10 +61,14 @@ body {
   }
 }
 
+
 /* FOOTER */
 .footer {
   height: 7%;
   background-color: #545454;
+  background: -moz-linear-gradient(top, #545454 0%, #6D6D6D 50%, #545454 100%);
+  background: -webkit-linear-gradient(top, #545454 0%, #6D6D6D 50%, #545454 100%);
+  background: linear-gradient(to bottom, #545454 0%, #6D6D6D 50%, #545454 100%);
   position: fixed;
   bottom: 0;
   width: 100%; 
@@ -103,8 +107,8 @@ h2, h3, p {
   width:100%;
   overflow-y: scroll;
   max-height:20rem;
+  box-shadow: 9px 6px 15px 0px rgba(0,0,0,0.5);
 }
-
 
 .draggable {
   width:30%;
@@ -154,10 +158,11 @@ h2, h3, p {
 .portfolio-container {
   padding:10%;
   padding-right:5%;
+  justify-content: space-between;
 }
 
 .portfolio-content {
-  background-color: wheat;
+  background-color: rgb(39, 147, 209);
   border-radius: 5px;
   padding: 10px;
   padding-top: 10%;

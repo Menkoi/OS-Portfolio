@@ -22,7 +22,7 @@ function Resume() {
           <Draggable defaultPosition={{ x: 200, y: -400 }}
               defaultClassName="draggable" bounds="body">
             <ModalDialog>
-              <ModalHeader closeButton id="modal-bar">
+              <ModalHeader closeButton >
               </ModalHeader>
 
               <ModalBody id="modal-body">

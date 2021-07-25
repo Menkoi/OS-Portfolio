@@ -28,6 +28,7 @@ function Portfolio() {
                 <img src="https://i.imgur.com/cwLTOc4.png" alt="" class="modal-img"></img>
                 <h1>Portfolio</h1>
                 <h3>Check out some projects below</h3>
+                
                 <div class="portfolio-container">
                   <div class="portfolio-content">
                   <h2>BookEnd</h2>
