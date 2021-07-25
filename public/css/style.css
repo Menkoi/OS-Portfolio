@@ -148,7 +148,7 @@ h2, h3, p {
 .modal-btn {
   float: center;
   padding:10px;
-  padding-left: 38%;
+  padding-left: 35%;
 }
 
 .portfolio-container {
@@ -156,7 +156,7 @@ h2, h3, p {
   padding-right:5%;
 }
 
-.portfolio-content1 {
+.portfolio-content {
   background-color: wheat;
   border-radius: 5px;
   padding: 10px;
@@ -165,13 +165,19 @@ h2, h3, p {
   float: center;
 }
 
-.portfolio-content2 {
-  background-color: darkgrey;
-  border-radius: 5px;
-  padding: 10px;
-  width: 90%;
-  float: center;
+.space {
+  background-color: white;
+  height: 20px;
 }
 
+/* CONTACT ICONS*/
+.contact-icons {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
 
+.icon-item {
+  font-size: 3rem;
+  padding-left: 0%;
+}
 

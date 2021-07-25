@@ -27,16 +27,12 @@ function Contact() {
               <ModalBody id="modal-body">
                 <img src="https://i.imgur.com/cwLTOc4.png" alt="" class="modal-img"></img>
                 <h1>Contact Me</h1>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                  </p>
+                  <h2>
+                    celaeon@gmail.com
+                  </h2>
+                  <h2>
+                    +1 240-619-9707 
+                  </h2>
               </ModalBody>
             </ModalDialog>
           </Draggable>

@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import Modal from "react-bootstrap/Modal";
 import Draggable from 'react-draggable';
-import Button from 'react-bootstrap/Button';
+//import Button from 'react-bootstrap/Button';
 
 import ModalHeader from 'react-bootstrap/ModalHeader';
 import { ModalBody, ModalDialog } from "react-bootstrap";
@@ -29,7 +29,7 @@ function Portfolio() {
                 <h1>Portfolio</h1>
                 <h3>Check out some projects below</h3>
                 <div class="portfolio-container">
-                  <div class="portfolio-content1">
+                  <div class="portfolio-content">
                   <h2>BookEnd</h2>
                   <img src="https://i.imgur.com/yPZ0Ytx.png"alt="" class="modal-img"></img>
                   <p>
@@ -46,7 +46,8 @@ function Portfolio() {
                   </a>
                   </div>
 
-                  <div class="portfolio-content2">
+                  <div class="space"></div>
+                  <div class="portfolio-content">
                   <h2>Save Tv</h2>
                   <img src="https://i.imgur.com/czbuVWL.gif"alt="" class="modal-img"></img>
                   <p>
@@ -65,8 +66,8 @@ function Portfolio() {
                   </div>
                   
 
-                  
-
+                  <div class="space"></div>
+                  <div class="portfolio-content">
                   <h2>Reward Bank</h2>
                   <img src="https://i.imgur.com/mmAOUYP.png"alt="" class="modal-img"></img>
                   <p>
@@ -80,6 +81,7 @@ function Portfolio() {
                   <a href="https://github.com/UTBootCampGroup2Project2/reward-bank">
                   <button>Github</button>
                   </a>
+                  </div>
 
                 </div>
               </ModalBody>
