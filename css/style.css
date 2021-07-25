@@ -134,3 +134,50 @@ h2, h3, p {
   font-size: 3rem;
   padding-left: 10%;
 }
+.btn-cert {
+  align-items: center;
+  padding: 10px;
+}
+
+/* ABOUT MODAL*/
+.about-img {
+  width:100%;
+}
+
+/* PORTFLIO MODAL */
+.modal-btn {
+  float: center;
+  padding:10px;
+  padding-left: 35%;
+}
+
+.portfolio-container {
+  padding:10%;
+  padding-right:5%;
+}
+
+.portfolio-content {
+  background-color: wheat;
+  border-radius: 5px;
+  padding: 10px;
+  padding-top: 10%;
+  width: 90%;
+  float: center;
+}
+
+.space {
+  background-color: white;
+  height: 20px;
+}
+
+/* CONTACT ICONS*/
+.contact-icons {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.icon-item {
+  font-size: 3rem;
+  padding-left: 0%;
+}
+
