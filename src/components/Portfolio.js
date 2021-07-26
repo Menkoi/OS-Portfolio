@@ -66,7 +66,6 @@ function Portfolio() {
                   </a>
                   </div>
                   
-
                   <div class="space"></div>
                   <div class="portfolio-content">
                   <h2>Reward Bank</h2>
